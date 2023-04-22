@@ -211,3 +211,11 @@ img {
 .widget-course__info, .widget-course__label {
     font-size: 2rem;
 }
+
+
+/** Footer **/
+.footer {
+    background-color: var(--black);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
+}
