@@ -266,3 +266,39 @@ img {
 .course__info, .course__label {
     font-size: 2rem;
 }
+
+
+/** Contact **/
+.contact-bg {
+    background-image: url(../img/contact.jpg);
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form {
+    background-color: var(--white);
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+
+.field {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.field__label {
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.field__area {
+    flex: 1;
+    border: 1px solid var(--grey);
+}
+
+.field__area--textarea {
+    height: 20rem;
+}
