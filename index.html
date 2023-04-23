@@ -19,8 +19,6 @@
     
     <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
-
-    <link rel="preload" href="img/blog01.jpg" as="image">
 </head>
 <body>
     <header class="header">
@@ -50,7 +48,10 @@
 
             <article class="post">
                 <div class="post__image">
-                    <img loading="lazy" src="img/blog01.jpg" alt="imagen blog">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog01.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog01.jpg" alt="imagen blog">
+                    </picture>
                 </div>
 
                 <div class="post__content">
@@ -62,7 +63,10 @@
 
             <article class="post">
                 <div class="post__image">
-                    <img loading="lazy" src="img/blog02.jpg" alt="imagen blog">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog02.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog02.jpg" alt="imagen blog">
+                    </picture>
                 </div>
 
                 <div class="post__content">
@@ -74,7 +78,10 @@
 
             <article class="post">
                 <div class="post__image">
-                    <img loading="lazy" src="img/blog03.jpg" alt="imagen blog">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog03.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog03.jpg" alt="imagen blog">
+                    </picture>
                 </div>
 
                 <div class="post__content">
@@ -129,5 +136,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/modernizer.js"></script>
 </body>
 </html>
